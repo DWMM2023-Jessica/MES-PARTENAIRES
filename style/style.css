@@ -1,0 +1,103 @@
+
+
+@media (max-width: 2100px) {
+  .TitrePartenaire, .PhraseAcrochePartenaire{
+      text-align: center;
+   
+     }
+
+       
+       @font-face  {
+        font-family: 'KaushanScript';
+        src:url(../font/KaushanScript-Regular.ttf) 
+       }
+     
+       @font-face {
+         font-family: 'PlayFair';
+         src:url(../font/PlayfairDisplay-VariableFont_wght.ttf) 
+       }
+     
+       .TitrePartenaire{
+         font-family:"KaushanScript";
+         font-size: 40px;
+         font-weight: 300;
+         text-align: center;
+       }
+     
+       .PhraseAcrochePartenaire{
+         font-family: 'PlayFair';  
+         font-size: 20px;
+         font-weight: 300;
+         text-align: center;
+       }
+ 
+ }
+    
+
+    @media (min-width: 600px) and (max-width: 1500px) {
+
+      .TitrePartenaire, .PhraseAcrochePartenaire{
+       text-align: center;
+    
+      }
+      
+  
+        @font-face  {
+         font-family: 'KaushanScript';
+         src:url(../font/KaushanScript-Regular.ttf) 
+        }
+      
+        @font-face {
+          font-family: 'PlayFair';
+          src:url(../font/PlayfairDisplay-VariableFont_wght.ttf) 
+        }
+      
+        .TitrePartenaire{
+          font-family:"KaushanScript";
+          font-size: 24px;
+          font-weight: 300;
+          text-align: center;
+        }
+      
+        .PhraseAcrochePartenaire{
+          font-family: 'PlayFair';  
+          font-size: 20px;
+          font-weight: 300;
+          text-align: center;
+        }
+  
+    }
+
+  @media (max-width: 600px) {
+
+     
+
+    .TitrePartenaire,.PhraseAcrochePartenaire{
+     text-align: center;
+  
+    }
+      
+      @font-face  {
+       font-family: 'KaushanScript';
+       src:url(../font/KaushanScript-Regular.ttf) 
+      }
+    
+      @font-face {
+        font-family: 'PlayFair';
+        src:url(../font/PlayfairDisplay-VariableFont_wght.ttf) 
+      }
+    
+      .TitrePartenaire{
+        font-family:"KaushanScript";
+        font-size: 24px;
+        font-weight: 300;
+      }
+    
+      .PhraseAcrochePartenaire{
+        font-family: 'PlayFair';  
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+
+  }
